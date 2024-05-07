@@ -47,7 +47,7 @@ Convert '/home/ubuntu/Documents/file.xpsf' XPSF Playlist To M3U Playlist In '/ho
 ```
 >>> from wuddz_m3u import m3u
 >>> m = m3u.M3U()
->>> m.__convert('/home/ubuntu/Documents/file.xpsf', '/home/ubuntu/Desktop')
+>>> m.convert('/home/ubuntu/Documents/file.xpsf', '/home/ubuntu/Desktop')
 ```
 Parse M3U Playlist File '/home/ubuntu/Documents/sub.m3u' For Series House Of Cards & Create Playlist In '/home/ubuntu/Desktop/TV' Directory.
 ```
@@ -56,7 +56,7 @@ Parse M3U Playlist File '/home/ubuntu/Documents/sub.m3u' For Series House Of Car
 >>> output = '/home/ubuntu/Desktop/TV'
 >>> title = 'House Of Cards'
 >>> m = m3u.M3U()
->>> m.__search(playlist,output,t=title)
+>>> m.search(playlist,output,t=title)
 ```
 
 ## Contact Info:
