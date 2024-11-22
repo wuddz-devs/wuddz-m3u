@@ -1,7 +1,7 @@
-<h1 align="center">Wuddz M3U Checker/Downloader/Maker/Parser & XPSF To M3U Converter</h1>
+<h1 align="center">Wuddz M3U Checker/Downloader/Maker/Parser & XSPF To M3U Converter</h1>
 
 ## Description
- - A Cool & Simple Python M3U Playlist Checker/Downloader/Maker/Parser & XPSF To M3U Playlist Converter.
+ - A Cool & Simple Python M3U Playlist Checker/Downloader/Maker/Parser & XSPF To M3U Playlist Converter.
 
 ## Prerequisites
  - Python : 3.7
@@ -37,9 +37,9 @@ Create .m3u Playlist Series Title 'House' Starting From Season 2 Episode 1, Epis
 ```
 wudz-m3u -f "C:\Links.txt" -t House -s 2 -a 10
 ```
-Convert 'file.xpsf' XPSF To 'file.m3u' M3U Playlist In C:\Users Directory
+Convert 'file.xspf' XSPF To 'file.m3u' M3U Playlist In C:\Users Directory
 ```
-wudz-m3u -f "C:\file.xpsf" -v -o C:\Users
+wudz-m3u -f "C:\file.xspf" -v -o C:\Users
 ```
 Check & Download Legit M3u Urls From 'valid.txt' To Output Folder As Local Playlist Files & Legit Urls In 'm3u_valid.txt'.
 ```
@@ -47,11 +47,11 @@ wudz-m3u -l "C:\valid.txt" -d
 ```
 
 ### Library
-Convert '/home/ubuntu/Documents/file.xpsf' XPSF Playlist To M3U Playlist In '/home/ubuntu/Desktop' Directory.
+Convert '/home/ubuntu/Documents/file.xspf' XSPF Playlist To M3U Playlist In '/home/ubuntu/Desktop' Directory.
 ```
 >>> from wuddz_m3u import m3u
 >>> m = m3u.M3U()
->>> m.__convert('/home/ubuntu/Documents/file.xpsf', '/home/ubuntu/Desktop')
+>>> m.__convert('/home/ubuntu/Documents/file.xspf', '/home/ubuntu/Desktop')
 ```
 Parse M3U Playlist File '/home/ubuntu/Documents/sub.m3u' For Series House Of Cards & Create Playlist In '/home/ubuntu/Desktop/TV' Directory.
 ```
