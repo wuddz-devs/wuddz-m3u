@@ -63,6 +63,9 @@ Parse M3U Playlist File '/home/ubuntu/Documents/sub.m3u' For Series House Of Car
 >>> m.__search(playlist,output,t=title)
 ```
 
+## Illustration Video:
+https://mega.nz/file/Je8VTAxS#tZbifiYui-b_zxiSBe-ARM-obdUBxlLXpIcFgmGNtM0
+
 ## Contact Info:
  - Email:     wuddz_devs@protonmail.com
  - Github:    https://github.com/wuddz-devs
